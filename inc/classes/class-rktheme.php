@@ -18,6 +18,7 @@ use Rktheme\Inc\Traits\Singleton;
 			//load class
 			Assets::get_instance();
 			Menus::get_instance();
+			Meta_Box::get_instance();
 			$this->setup_hooks();
 		}
 

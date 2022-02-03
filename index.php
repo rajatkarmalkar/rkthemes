@@ -2,7 +2,7 @@
 /**
 * Main theme file
 *
-*    @package rktheme
+*    @package rkthemes
 */
 
 get_header();

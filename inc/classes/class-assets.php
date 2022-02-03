@@ -25,10 +25,12 @@ use Rktheme\Inc\Traits\Singleton;
 
 		public function register_styles(){
 		wp_register_style( 'rkthemes', RKTHEME_DIR_URI . '/assets/css/rkthemes.css', [], filemtime( RKTHEME_DIR_PATH .'/assets/css/rkthemes.css' ), 'all' );
+		wp_register_style( 'style', RKTHEME_DIR_URI . '/style.css', [], filemtime( RKTHEME_DIR_PATH .'/style.css' ), 'all' );
 
 		wp_register_style( 'bootstrap-css', RKTHEME_DIR_URI . '/assets/bootstrap/css/bootstrap.min.css', [], false, 'all' );
 
 		wp_enqueue_style('rkthemes');
+		wp_enqueue_style('style');
 		wp_enqueue_style('bootstrap-css');	
 		}
 
