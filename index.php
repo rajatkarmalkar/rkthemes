@@ -2,7 +2,7 @@
 /**
 * Main theme file
 *
-*    @package rktheme
+*    @package rkthemes
 */
 
 get_header();
@@ -61,7 +61,7 @@ get_header();
 
 			endif;
 
-			rkthemes_pagination();
+		echo	rkthemes_pagination();
 			?>
 		</main>
 	</div>
