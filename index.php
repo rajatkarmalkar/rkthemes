@@ -61,7 +61,7 @@ get_header();
 
 			endif;
 
-			rkthemes_pagination();
+		echo	rkthemes_pagination();
 			?>
 		</main>
 	</div>

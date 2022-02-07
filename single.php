@@ -47,7 +47,7 @@ get_header();
 							</div>
 						<?php
 						endif;
-
+						rkthemes_pagination();
 						?>
 					</div>
 					<?php

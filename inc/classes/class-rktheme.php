@@ -19,6 +19,8 @@ use Rktheme\Inc\Traits\Singleton;
 			Assets::get_instance();
 			Menus::get_instance();
 			Meta_Box::get_instance();
+			Sidebar::get_instance();
+			Widgets::get_instance();
 			$this->setup_hooks();
 		}
 
